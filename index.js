@@ -7,6 +7,6 @@ const app = express();
 const port = 8086;
 
 app.use(routes);
-app.listen(port, function () {
+app.listen(port, () => {
     console.log("The server is waiting for a connection ...");
   });
